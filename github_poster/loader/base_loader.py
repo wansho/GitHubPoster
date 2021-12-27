@@ -82,8 +82,8 @@ class BaseLoader(ABC):
             "--me",
             metavar="NAME",
             type=str,
-            default="Joey",
-            help='User name to display (default: "Joey").',
+            default="wansho",
+            help='User name to display (default: "wansho").',
         )
         group.add_argument(
             "--background-color",
